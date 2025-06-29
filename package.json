@@ -1,6 +1,6 @@
 {
   "name": "ethan-npm-package-test",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A private npm package with automated publishing using changesets",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
