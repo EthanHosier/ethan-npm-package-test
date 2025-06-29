@@ -7,6 +7,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "release": "changeset",
     "ci:publish": "npm run build && changeset publish --access public"
   },
@@ -30,6 +33,9 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.5",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   }
