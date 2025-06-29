@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup src",
     "release": "changeset",
-    "ci:publish": "npm run build && changeset publish --access restricted"
+    "ci:publish": "npm run build && changeset publish --access public"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +17,9 @@
   "repository": {
     "url": "https://github.com/EthanHosier/ethan-npm-package-test"
   },
-  "private": true,
   "publishConfig": {
     "provenance": true,
-    "access": "restricted"
+    "access": "public"
   },
   "exports": {
     ".": {
